@@ -1,0 +1,29 @@
+\documentclass{article}
+\author{Janati Imrane, Leroy Tanguy, Ouarghi Yanis, Sadiki Ilias}
+\date{}   
+
+\begin{document}
+
+\title{Gesture recognition system}
+\maketitle
+
+\section{Introduction}
+As part of the Machine Learning course, 
+we developed a gesture recognition system based on 3D data. 
+The project consisted in classifying digits (from 0 to 9) 
+drawn in the air by different users using supervised classification techniques. 
+After a phase of data exploration and preprocessing, 
+we implemented a baseline method (Dynamic Time Warping) 
+as well as a more advanced model, to compare their performances 
+in both user-dependent and user-independent settings. 
+This report presents our approach, the methodological choices made, 
+as well as the results obtained.
+
+\section{Exploratory data analysis}
+Nous disposons de 1 000 fichiers représentant les chiffres de 0 à 9, écrits par 10 individus différents, chacun ayant répété chaque chiffre 10 fois. Cela correspond à un total de 85 095 coordonnées à traiter.
+( Une étude exploratoire est essentielle pour mieux comprendre la structure et les caractéristiques de ces données, et ainsi orienter efficacement les étapes de modélisation. )
+Un premier aspect important à analyser est la longueur des séquences, c’est-à-dire le nombre de points ou coordonnées enregistrés par fichier. Cette information est cruciale, notamment pour les modèles basés sur le deep learning, qui requièrent souvent que toutes les séquences d’entrée aient une taille identique.
+Nos observations révèlent une forte variabilité dans le nombre de points par séquence. Par exemple, le chiffre 7 est souvent représenté par moins de points que les autres chiffres, ce qui complique l’uniformisation des séquences et, par conséquent, l’apprentissage automatique. Cette variabilité est corrélée avec la durée de réalisation du geste, bien que nous n’ayons pas intégré cette dernière dans nos analyses .
+
+
+\end{document}

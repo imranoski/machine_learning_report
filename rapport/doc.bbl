@@ -1,0 +1,15 @@
+\begin{thebibliography}{1}
+
+\bibitem{bulling2014}
+Andreas Bulling, Ulf Blanke, and Bernt Schiele.
+\newblock A tutorial on human activity recognition using body-worn inertial
+  sensors.
+\newblock {\em ACM Computing Surveys (CSUR)}, 46(3):33:1--33:33, 2014.
+
+\bibitem{chen2016}
+Tianqi Chen and Carlos Guestrin.
+\newblock Xgboost: A scalable tree boosting system.
+\newblock {\em Proceedings of the 22nd ACM SIGKDD International Conference on
+  Knowledge Discovery and Data Mining}, pages 785--794, 2016.
+
+\end{thebibliography}
